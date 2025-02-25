@@ -224,4 +224,14 @@ padding: 10px 20px 30px 40px;
 - 다양한 디바이스와 화면 크기에 자동으로 적응하여 콘텐츠를 최적으로 표시하는 웹 레이아웃 방식
 
 ### 반응형 레이아웃 작성
-- flex-wrap을 사용해 반응형 레이아웃 작성 (flex-grow & flex-basis 활용용)
+- flex-wrap을 사용해 반응형 레이아웃 작성 (flex-grow & flex-basis 활용)
+
+### <참고>
+
+### Margin collapsing(마진 상쇄) -> 일관된 레이아웃을 위해
+- 두 block 타입 요소의 margin top과 bottom이 만나 더 큰 margin으로 결합되는 현상
+
+### Margin collapsing(마진 상쇄) 이유
+- 복잡한 레이아웃에서 요소 간 간격을 일관되게 유지하기 위함
+- 요소 간의 간격을 더 예측 가능하고 관리하기 쉽게 만듦
+- 일관성, 단순화
